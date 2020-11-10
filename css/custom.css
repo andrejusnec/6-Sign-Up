@@ -7,22 +7,32 @@ body{
         background-color: yellow;
         margin-top: 100px;
         margin-left: calc((100% - 800px) / 2);
+        position: relative;
     }   
-        .leftSide{  
+        .leftSide{    
             display: inline-block;
             width: 40%;
             background-color: indigo;
             float: left;
-            margin-top: 10px;
+            padding: 40px;
+            position: absolute;
+            top: 30px;
+            bottom: 30px;
         }
             h1{
-
+                width: 100%;
+                display: inline-block;
         }
             footer{
+                position: absolute;
+                width: 100%;
+                bottom: 20px;
+                left: 40px;
+                right: 40px;
 
             }
             .linkai{
-
+                color: white;
             }
             .amper{
 
@@ -31,9 +41,19 @@ body{
             display: inline-block;
             width: 60%;
             background-color:white;
-            float: left;
+            float: right;
             padding: 60px;
+            position: relative;
         }  
             .close{
-
+                display: inline-block;
+                width: 60px;
+                background-color: red;
+                line-height: 60px;
+                top: 0;
+                right: 0;
+                position: absolute;
+                font-size: 30px;
+                text-align: center;
             }
+
