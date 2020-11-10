@@ -12,17 +12,24 @@ body{
         .leftSide{    
             display: inline-block;
             width: 40%;
-            background-color: indigo;
+            background-color: blue;
+            background-image: url(../image/kalnas.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
             float: left;
             padding: 40px;
             position: absolute;
             top: 30px;
             bottom: 30px;
+            color: white;
         }
             h1{
                 width: 100%;
                 display: inline-block;
                 color: white;
+                font-family: 'Open Sans', sans-serif;
+                letter-spacing: 3px;
         }
             footer{
                 position: absolute;
@@ -49,7 +56,6 @@ body{
             .close{
                 display: inline-block;
                 width: 60px;
-                background-color: red;
                 line-height: 60px;
                 top: 0;
                 right: 0;
