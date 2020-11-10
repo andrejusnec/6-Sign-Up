@@ -1,0 +1,49 @@
+.forma {
+    display: inline-block;
+    width: 100%;
+}
+    .Eilute {
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .Eilute:last-of-type {
+            margin-bottom: 0;
+    }
+        .label {
+            display: inline-block;
+            width: 100%;
+            margin-bottom: 5px;
+            font-size: 13px;
+            line-height: 15px;
+            text-transform: uppercase;
+        }
+        .input {
+            display: inline-block;
+            width: 100%;
+            font-size: 18px;
+            line-height: 25px;
+            border: none;
+            border-bottom: 1px solid darkgrey;
+        }
+        input:focus{
+            outline: 2px solid blue;
+        }
+            .or {
+            display: inline-block;
+            padding: 10px;
+            line-height: 20px;
+            font-size: 18px;
+        }
+            .rightB {
+            display: inline-block;
+            padding: 10px;
+            line-height: 20px;
+            font-size: 18px;
+            color: #0069BA;
+        }
+        .rightB:hover{
+            color: red;
+            text-transform: uppercase;
+            
+        }

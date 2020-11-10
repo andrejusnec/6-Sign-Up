@@ -3,7 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/button.css">
+    <link rel="stylesheet" href="./css/form.css">
+    <link rel="stylesheet" href="/css/custom.css">
     <title>Sign up</title>
 </head>
 <body>
@@ -13,37 +16,40 @@
                 Sign Up
             </h1>
             <footer>
-                <a href="#">Privacy Policy</a>
-                <span id="amper">&amp;</span>
-                <a href="#">Terms and Conditions</a>
+                <a class="linkai" href="#">Privacy Policy</a>
+                <span class="amper">&amp;</span>
+                <a class="linkai" href="#">Terms and Conditions</a>
             </footer>
         </div>
         <div class="rightSide">
-            <form>
+            <div class="close">x</div>
+            <form class="forma">
                 <div class="Eilute">
                     <label class="label" for="username">Username</label>
                     <input class="input" id="username" type="text" placeholder="Name">
                 </div>
                 <div class="Eilute">
-                    <label for="email">E-mail</label>
-                    <input id="email" type="email" placeholder="Email">
+                    <label class="label" for="email">E-mail</label>
+                    <input class="input" id="email" type="email" placeholder="Email">
                 </div>
                 <div class="Eilute">
-                    <label for="pass">Password</label>
-                    <input id="pass"type="password" placeholder="Password">
+                    <label class="label" for="pass">Password</label>
+                    <input class="input" id="pass"type="password" placeholder="Password">
                 </div>
                 <div class="Eilute">
-                    <label for="repass">Repeat Password</label>
-                    <input id="repass" type="password" placeholder="Repeat Password">
+                    <label class="label" for="repass">Repeat Password</label>
+                    <input class="input" id="repass" type="password" placeholder="Repeat Password">
                 </div>
-                 <div id="leftB">
+                <div class="Eilute">
+                 <a href="#" class="leftB">
                     Get Started
-                </div>
-                <span>or
+                 </a>
+                <span class="or">or
                 </span>
-                <div id="rightB">
+                <a href="#" class="rightB">
                     Sign In
-                </div>
+                </a>
+            </div>
             </form>
         </div>
     </main>
