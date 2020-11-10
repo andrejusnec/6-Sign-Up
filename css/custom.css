@@ -1,11 +1,19 @@
 body{
-
+    background-color: aqua;
 }
     main{
-
+        display: inline-block;
+        width: 800px;
+        background-color: yellow;
+        margin-top: 100px;
+        margin-left: calc((100% - 800px) / 2);
     }   
-        .leftSide{
-
+        .leftSide{  
+            display: inline-block;
+            width: 40%;
+            background-color: indigo;
+            float: left;
+            margin-top: 10px;
         }
             h1{
 
@@ -16,16 +24,20 @@ body{
             .linkai{
 
             }
-            #amper{
+            .amper{
 
             }
         .rightSide{
-
+            display: inline-block;
+            width: 60%;
+            background-color:white;
+            float: left;
+            padding: 60px;
         }  
             .close{
 
             }
-            #forma{
+            .forma{
 
             }
                 .Eilute{
@@ -37,12 +49,12 @@ body{
                     .input{
 
                     }
-                    #leftB{
+                    .leftB{
 
                     }
                     .or{
 
                     }
-                    #rightB{
+                    .rightB{
 
                     }
