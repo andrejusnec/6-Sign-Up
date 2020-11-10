@@ -1,5 +1,10 @@
-body{
-    background-color: aqua;
+body{  
+    background-image: url(../image/kalnas.jpg);  
+    /*background: linear-gradient(45deg, #3F51B5, #9C27B0);*/
+    width: 100vw;
+    height: 100vh;
+    background-size: 100% 100%;
+    backdrop-filter: blur(12px);
 }
     main{
         display: inline-block;
@@ -62,5 +67,6 @@ body{
                 position: absolute;
                 font-size: 30px;
                 text-align: center;
+                color: lightgrey;
             }
 
