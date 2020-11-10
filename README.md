@@ -4,7 +4,7 @@
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
 
 # Sign Up project
-### 19a group personal website project
+### 19a group personal form project
 
 This project is for educational porpuses only. Pull request are welcome. Thank you for possible cooperation!
 
