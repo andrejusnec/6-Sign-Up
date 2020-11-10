@@ -4,7 +4,7 @@ body{
     main{
         display: inline-block;
         width: 800px;
-        background-color: yellow;
+        /*background-color: yellow;*/
         margin-top: 100px;
         margin-left: calc((100% - 800px) / 2);
         position: relative;
@@ -22,6 +22,7 @@ body{
             h1{
                 width: 100%;
                 display: inline-block;
+                color: white;
         }
             footer{
                 position: absolute;

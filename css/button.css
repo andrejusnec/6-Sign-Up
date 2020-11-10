@@ -8,4 +8,9 @@
                 border-radius: 20px;
                 background-color: #0069BA;
                 color: #fff;
+                box-shadow: 0 4px 8px darkgrey;
+            }
+            .leftB:hover{
+                box-shadow: 0 4px 6px black;
+                cursor: pointer;
             }
